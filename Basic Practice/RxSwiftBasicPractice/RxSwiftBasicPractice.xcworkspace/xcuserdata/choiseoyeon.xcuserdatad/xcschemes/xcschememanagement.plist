@@ -86,7 +86,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>4</integer>
 		</dict>
 		<key>BasicPractice (Playground) 1.xcscheme</key>
 		<dict>
@@ -107,7 +107,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>7</integer>
 		</dict>
 		<key>GrammerPractice (Playground).xcscheme</key>
 		<dict>
@@ -115,6 +115,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+		<key>Operators_1 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Operators_1 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Operators_1 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 	</dict>
 </dict>

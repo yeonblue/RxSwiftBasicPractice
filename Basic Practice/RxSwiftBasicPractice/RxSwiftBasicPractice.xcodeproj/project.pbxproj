@@ -29,6 +29,7 @@
 		45E181EF2792BCCA0015F980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45E181F92793E5830015F980 /* BasicPractice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BasicPractice.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		45E181FC2794024D0015F980 /* 2. Subject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2. Subject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		45E1820627943D6C0015F980 /* Operators_1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators_1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8A23BE62B534BB32ECC3B63A /* Pods-RxSwiftBasicPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftBasicPractice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftBasicPractice/Pods-RxSwiftBasicPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +82,7 @@
 			children = (
 				45E181F72793E5650015F980 /* 1. Basic Practice */,
 				45E181F82793E56D0015F980 /* 2. Subject */,
-				45E181FA2793E59A0015F980 /* 3.  */,
+				45E181FA2793E59A0015F980 /* 3. Operators_1 */,
 				45E18205279402730015F980 /* 4. */,
 				45E18204279402700015F980 /* 5. */,
 				45E182032794026D0015F980 /* 6. */,
@@ -107,11 +108,12 @@
 			path = "2. Subject";
 			sourceTree = "<group>";
 		};
-		45E181FA2793E59A0015F980 /* 3.  */ = {
+		45E181FA2793E59A0015F980 /* 3. Operators_1 */ = {
 			isa = PBXGroup;
 			children = (
+				45E1820627943D6C0015F980 /* Operators_1.playground */,
 			);
-			path = "3. ";
+			path = "3. Operators_1";
 			sourceTree = "<group>";
 		};
 		45E181FD2794025E0015F980 /* 8. */ = {

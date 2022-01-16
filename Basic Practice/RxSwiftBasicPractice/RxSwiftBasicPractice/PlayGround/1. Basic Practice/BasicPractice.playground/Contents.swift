@@ -70,6 +70,7 @@ Observable<Int>
             
             // 타이머를 통해 이벤트가 방출될 경우 이렇게 중단 가능, 단순히 of로 [1,2,3, .... 100] 보냈으면 중단 불가
             // 이 경우 onCompleted는 방출되지 않음.
+            // disposeBag을 동일하게 써서 특정 이벤트가 일정기간 emit되지 않으면 실행되게도 가능
             
             disposeBag = DisposeBag()
         }
@@ -81,3 +82,37 @@ Observable<Int>
         print("disposed!")
     }
     .disposed(by: disposeBag)
+
+print("=====")
+// RxCocoa에서 지원하는 relay
+/// 1. PublishRelay   onNext 대신 accept를 사용
+/// 2. BehavirRelay
+/// 3. ReplayRelay  -> RxSwift 6에서 추가
+/// only next 이벤트만 전달. dispose 되기 전까지 이벤트를 처리, UI 이벤트 위주로 사용.
+
+let publishRelay = PublishRelay<Int>()
+
+publishRelay.subscribe { event in
+    print(event)
+}.disposed(by: disposeBag)
+
+publishRelay.accept(1) // onNext대신 accept
+publishRelay.accept(2)
+
+let behaviorRelay = BehaviorRelay<Int>(value: 1)
+
+behaviorRelay.subscribe { event in
+    print(event)
+}
+
+behaviorRelay.accept(2)
+print(behaviorRelay.value) // 가장 마지막 이벤트를 조회하긴 read-only property
+
+let replayRelay = ReplayRelay<Int>.create(bufferSize: 2)
+(1...5).forEach { val in
+    replayRelay.accept(val)
+}
+
+replayRelay.subscribe(onNext: {
+    print($0) // 가장 최근 이벤트인 4, 5가 출력
+})
