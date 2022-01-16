@@ -28,6 +28,7 @@
 		45E181ED2792BCCA0015F980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45E181EF2792BCCA0015F980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45E181F92793E5830015F980 /* BasicPractice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BasicPractice.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		45E181FC2794024D0015F980 /* 2. Subject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2. Subject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8A23BE62B534BB32ECC3B63A /* Pods-RxSwiftBasicPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftBasicPractice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftBasicPractice/Pods-RxSwiftBasicPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				45E181F62793E55B0015F980 /* PlayGround */,
-				45E181E12792BCC60015F980 /* AppDelegate.swift */,
 				45E181E32792BCC60015F980 /* SceneDelegate.swift */,
 				45E181E52792BCC60015F980 /* ViewController.swift */,
 				45E181E72792BCC60015F980 /* Main.storyboard */,
@@ -80,8 +80,13 @@
 			isa = PBXGroup;
 			children = (
 				45E181F72793E5650015F980 /* 1. Basic Practice */,
-				45E181F82793E56D0015F980 /* 2. */,
+				45E181F82793E56D0015F980 /* 2. Subject */,
 				45E181FA2793E59A0015F980 /* 3.  */,
+				45E18205279402730015F980 /* 4. */,
+				45E18204279402700015F980 /* 5. */,
+				45E182032794026D0015F980 /* 6. */,
+				45E182022794026A0015F980 /* 7. */,
+				45E181FD2794025E0015F980 /* 8. */,
 			);
 			path = PlayGround;
 			sourceTree = "<group>";
@@ -94,11 +99,12 @@
 			path = "1. Basic Practice";
 			sourceTree = "<group>";
 		};
-		45E181F82793E56D0015F980 /* 2. */ = {
+		45E181F82793E56D0015F980 /* 2. Subject */ = {
 			isa = PBXGroup;
 			children = (
+				45E181FC2794024D0015F980 /* 2. Subject.playground */,
 			);
-			path = 2.;
+			path = "2. Subject";
 			sourceTree = "<group>";
 		};
 		45E181FA2793E59A0015F980 /* 3.  */ = {
@@ -106,6 +112,42 @@
 			children = (
 			);
 			path = "3. ";
+			sourceTree = "<group>";
+		};
+		45E181FD2794025E0015F980 /* 8. */ = {
+			isa = PBXGroup;
+			children = (
+				45E181E12792BCC60015F980 /* AppDelegate.swift */,
+			);
+			path = 8.;
+			sourceTree = "<group>";
+		};
+		45E182022794026A0015F980 /* 7. */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 7.;
+			sourceTree = "<group>";
+		};
+		45E182032794026D0015F980 /* 6. */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 6.;
+			sourceTree = "<group>";
+		};
+		45E18204279402700015F980 /* 5. */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 5.;
+			sourceTree = "<group>";
+		};
+		45E18205279402730015F980 /* 4. */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 4.;
 			sourceTree = "<group>";
 		};
 		7649A5A57A2BBA445A0F8E1F /* Pods */ = {
