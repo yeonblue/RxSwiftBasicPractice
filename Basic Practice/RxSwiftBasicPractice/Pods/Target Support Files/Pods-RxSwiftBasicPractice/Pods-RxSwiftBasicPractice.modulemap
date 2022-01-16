@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftBasicPractice {
+  umbrella header "Pods-RxSwiftBasicPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}
