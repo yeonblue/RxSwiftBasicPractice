@@ -19,7 +19,6 @@ struct MyError: Error {
 }
 
 // 1. PublishSubject - 초기값이 X
-
 let publishSubject = PublishSubject<String>()
 publishSubject.onNext("1. First")
 

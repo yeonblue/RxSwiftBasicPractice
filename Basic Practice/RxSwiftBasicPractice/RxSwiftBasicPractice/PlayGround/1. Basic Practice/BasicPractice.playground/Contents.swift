@@ -71,6 +71,8 @@ Observable<Int>
             // 타이머를 통해 이벤트가 방출될 경우 이렇게 중단 가능, 단순히 of로 [1,2,3, .... 100] 보냈으면 중단 불가
             // 이 경우 onCompleted는 방출되지 않음.
             // disposeBag을 동일하게 써서 특정 이벤트가 일정기간 emit되지 않으면 실행되게도 가능
+            // 별도의 disposeBag을 둬서 실패할 경우 이벤트를 줄 수 있음.
+            // 해당 이벤트가 발생하지 않기를 원할 경우 disposebag = DisposeBag()으로 초기화
             
             disposeBag = DisposeBag()
         }
