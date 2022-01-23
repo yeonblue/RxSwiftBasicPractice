@@ -19,6 +19,7 @@
 /* Begin PBXFileReference section */
 		0894228459AB23BD1062DBF0 /* Pods_RxSwiftBasicPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftBasicPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7248133F57B944142A16E7 /* Pods-RxSwiftBasicPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftBasicPractice.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftBasicPractice/Pods-RxSwiftBasicPractice.release.xcconfig"; sourceTree = "<group>"; };
+		45DCAFA2279D678400DCC7DC /* Operators_2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators_2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		45E181DE2792BCC60015F980 /* RxSwiftBasicPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftBasicPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E181E12792BCC60015F980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E181E32792BCC60015F980 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,7 +84,7 @@
 				45E181F72793E5650015F980 /* 1. Basic Practice */,
 				45E181F82793E56D0015F980 /* 2. Subject */,
 				45E181FA2793E59A0015F980 /* 3. Operators_1 */,
-				45E18205279402730015F980 /* 4. */,
+				45E18205279402730015F980 /* 4. Operations_2 */,
 				45E18204279402700015F980 /* 5. */,
 				45E182032794026D0015F980 /* 6. */,
 				45E182022794026A0015F980 /* 7. */,
@@ -145,11 +146,12 @@
 			path = 5.;
 			sourceTree = "<group>";
 		};
-		45E18205279402730015F980 /* 4. */ = {
+		45E18205279402730015F980 /* 4. Operations_2 */ = {
 			isa = PBXGroup;
 			children = (
+				45DCAFA2279D678400DCC7DC /* Operators_2.playground */,
 			);
-			path = 4.;
+			path = "4. Operations_2";
 			sourceTree = "<group>";
 		};
 		7649A5A57A2BBA445A0F8E1F /* Pods */ = {
